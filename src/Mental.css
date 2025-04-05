@@ -1,0 +1,71 @@
+.mental-health-card {
+    background-color: #2ecc71;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .score-bar {
+    position: relative;
+    background: #ffffff;
+    height: 6px;
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 3px;
+  }
+  
+  .score-indicator {
+    position: absolute;
+    top: -15px;
+    transform: translateX(-50%);
+    background: white;
+    color: #2ecc71;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+  }
+  
+  .score-scale {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .scale-item {
+    margin-left: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .scale-item.struggling {
+    background-color: #e74c3c;
+  }
+  
+  .scale-item.struggling-somewhat {
+    background-color: #f39c12;
+  }
+  
+  .scale-item.coping {
+    background-color: #f1c40f;
+  }
+  
+  .scale-item.coping-well {
+    background-color: #2ecc71;
+  }
+  
+  .scale-item.flourishing {
+    background-color: #27ae60;
+  }
+  
